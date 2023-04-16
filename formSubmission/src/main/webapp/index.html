@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Register</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Register here</h1>
+		<form action="RegisterServlet" method="post">
+			<label for="For name">Enter your name: </label>
+				<input type="text" name="user_name" placeholder="Enter Name"> <br>
+			<label for="password">Enter your Password: </label>
+				<input type="password" name="user_pass" placeholder="Enter Password"> <br>
+			<label for="email">Enter your email:</label>
+				<input type="email" name="user_emailId" > <br>
+			<label for="Gender">Gender</label>
+				<input type="radio" name="user_gender" value="Male"> Male
+				<input type="radio" name="user_gender" value="female">Female
+			<br>
+			<label for="">Select your course</label>
+			<select name="user_course" >
+				<option value="Btech">Betch</option>
+				<option value="BBA">BBA</option>
+				<option value="LLB">LLB</option>
+				<option value="Nursing">Nursing</option>
+			</select> <br>
+				<input type="checkbox" value="checked" name="terms">
+			<label for="agrre">Agree terms and conditions</label>
+			<br>
+			<button type="submit">Register</button>
+			<button type="reset">Reset</button>
+		</form>
+	</div>
+</body>
+</html>

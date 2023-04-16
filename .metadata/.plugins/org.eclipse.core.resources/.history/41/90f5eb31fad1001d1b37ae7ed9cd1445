@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<!-- declaritive tag -->
+		<!-- used to declare variables and funcions  -->
+		<!-- tag syntax -->
+		<%! 
+			int a = 10;
+			int b = 50;
+			String name = "Hemant Maurya";
+			public int doSum(){
+				return a+b;
+			}
+			public String reverse(){
+				StringBuffer br = new StringBuffer(name);
+				return br.reverse().toString();
+			}
+		%>
+		
+		<!-- Scriptlet Tag : used to write java code/ processing code  -->
+		<!-- whatever we write here it goes directly to the service method like in servlet we used to write 
+		  here you get a default out object has given by jsp writer we don't need to create object of printwriter 
+		 like we used to do in servlet-->
+		<%
+			out.println(doSum());
+			out.println("<br>")
+			out.println(reverse());
+		%>
+		
+		
+		<!--  Expression Tag -->
+			<!-- it is used to print on the screen or used to generate response to the screen -->
+			
+		<h1>sum is : <%= doSum() %></h1>
+	</body>
+</html>

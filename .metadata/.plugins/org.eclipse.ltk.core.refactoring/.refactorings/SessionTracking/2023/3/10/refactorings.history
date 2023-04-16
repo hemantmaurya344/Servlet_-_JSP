@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;f&apos; in &apos;session.Servlet2.processRequest(...)&apos; to &apos;old_user&apos;&#x0D;&#x0A;- Original project: &apos;SessionTracking&apos;&#x0D;&#x0A;- Original element: &apos;session.Servlet2.processRequest(HttpServletRequest, HttpServletResponse).f&apos;&#x0D;&#x0A;- Renamed element: &apos;f&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;f&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;session{Servlet2.java[Servlet2~processRequest~QHttpServletRequest;~QHttpServletResponse;@f!886!903!894!894!Z!0!false" name="old_user" references="true" stamp="1678534835282" version="1.0"/>
+</session>

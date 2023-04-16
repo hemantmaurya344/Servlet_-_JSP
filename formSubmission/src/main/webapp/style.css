@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+    width: 20em;
+    border: 0.2em solid black;
+    padding: 2em;
+    margin: 1.5em 0 0 10em;
+    font-size: 2em;
+}
+button{
+    height: 2em;
+    width: 15em;
+    background-color: coral;
+    border: none;
+    border-radius: 2em;
+}
